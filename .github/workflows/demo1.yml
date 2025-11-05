@@ -7,7 +7,7 @@ on:
     branches: 
       - main
       - dev
-    paths-ignore:
+    paths:
       - '.github/workflows/*'
 jobs: 
   event-types:
